@@ -56,7 +56,7 @@ body {
 // START HEADER
 
 .header-container {
-  max-width: 1450px;
+  max-width: 1300px;;
   margin: 0 auto;
 
   @include bp(mobile) {
@@ -192,7 +192,7 @@ body {
   }
 
   .hero-wrapper {
-    width: 1450px;
+    width: 1300px;;
     display: flex;
     justify-content: space-between;
 
