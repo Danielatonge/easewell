@@ -1,0 +1,129 @@
+@import './colors';
+@import './mixins';
+
+.input-email {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #020617;
+  box-sizing: border-box;
+  padding: 12px 8px;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  margin-right: 16px;
+  width: 288px;
+  outline: none;
+
+  &:focus {
+    // border: 1px solid #14c1a2;
+  }
+
+  @include placeholder {
+    color: #334155;
+
+    @include bp(mobile) {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  @include bp(mobile) {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  @include bp(tablet) {
+    width: 200px;
+  }
+}
+
+.input-inline-holder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include bp(mobile) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .button {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  @include bp(tablet) {
+    justify-content: center;
+  }
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+
+  &>* {
+    width: 49%;
+  }
+
+  @include bp(mobile) {
+    display: block;
+    margin-bottom: 10px;
+
+    &>* {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.textarea-row {
+  margin-bottom: 12px;
+}
+
+.input,
+.textarea {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, .2);
+  border: 1.2px solid rgba(227, 227, 227, .5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  resize: none;
+  outline: none;
+
+  &:focus {
+    border: 1px solid #14c1a2;
+  }
+
+  &.input--white {
+    background: #f9f9fa;
+    color: #000;
+
+    @include placeholder {
+      font-size: 16px;
+      font-weight: 500;
+      color: #707683;
+      opacity: .8;
+    }
+  }
+
+  @include placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    opacity: .8;
+  }
+}
+
+.textarea {
+  height: 142px;
+}
+
+.name-input {
+  display: none;
+}

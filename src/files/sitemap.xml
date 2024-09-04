@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.justslidemedia.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/services</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/clients</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/casestudies</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/press</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/careers</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/about</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/contacts</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/data-privacy</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/privacy-policy</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/careers/market-manager</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/careers/product-manager</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/careers/full-stack</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.justslidemedia.com/careers/data-engineer</loc>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

@@ -1,0 +1,98 @@
+@import './colors';
+@import './mixins';
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background: #212121;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+
+  // &:hover,
+  // &:focus {
+  //   background: #2880bb;
+  //   border: 1px solid #2880bb;
+  // }
+
+  &:active {
+    background: #2880bb;
+    border: 1px solid #2880bb;
+  }
+
+  &--md {
+    padding: 14px 59px;
+
+    @include bp(mobile) {
+      padding: 14px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  &--small {
+    font-size: 16px;
+    padding: 9px 42px;
+
+    @include bp(mobile) {
+      padding: 5px 23px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+
+  &--transparent {
+    background: transparent;
+    color: $PrimaryColor;
+
+    &:hover,
+    &:focus {
+      background: $PrimaryColor;
+      border: 1px solid $PrimaryColor;
+      color: #fff;
+    }
+
+    &:active {
+      background: #2880bb;
+      border: 1px solid #2880bb;
+      color: #fff;
+    }
+  }
+
+  &--white {
+    background: #fff;
+    color: $PrimaryColor;
+
+    &:hover,
+    &:focus {
+      background: #defcf7;
+    }
+
+    &:active {
+      background: #2880bb;
+      color: #fff;
+    }
+  }
+
+  &--call {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+// a.linked {
+//   display: inline-block;
+//   width: 16px;
+//   height: 16px;
+//   background: url('../images/linked-in-icon.svg') no-repeat center;
+// }

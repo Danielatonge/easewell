@@ -1,0 +1,123 @@
+@import './colors';
+@import './mixins';
+
+h1 {
+    font-size: 64px;
+    font-family: Poppins, sans-serif;
+    color: $TextHeading;
+    font-weight: 700;
+    line-height: 80px;
+
+    @include bp(tablet) {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    @include bp(mobile) {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    span {
+        color: $PrimaryColor;
+        font-size: 68px;
+    }
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    color: $TextHeading;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @include bp(tablet) {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    @include bp(mobile) {
+        font-size: 54px;
+        line-height: 64px;
+    }
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    color: $TextHeading;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    @include bp(tablet) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    @include bp(mobile) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    span {
+        color: $PrimaryColor;
+    }
+}
+
+h4 {
+    color: $TextHeading;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    @include bp(mobile) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span {
+        color: $PrimaryColor;
+    }
+}
+
+h5 {
+    color: $TextHeading;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+    @include bp(mobile) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    span {
+        color: $PrimaryColor;
+    }
+}
+
+p {
+    color: $TextColor;
+    font-size: 18px;
+    line-height: 28px;
+
+    @include bp(mobile) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    span {
+        color: $PrimaryColor;
+    }
+}
+
+.caption {
+    color: $TextColor;
+    font-size: 16px;
+    line-height: 20px;
+
+    span {
+        color: $PrimaryColor;
+    }
+}
